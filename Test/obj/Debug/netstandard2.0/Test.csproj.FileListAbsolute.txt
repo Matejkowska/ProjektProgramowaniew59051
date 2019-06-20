@@ -1,0 +1,10 @@
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\bin\Debug\netstandard2.0\Test.deps.json
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\bin\Debug\netstandard2.0\Test.dll
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\bin\Debug\netstandard2.0\ProjektProgramowaniew59051.exe
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\bin\Debug\netstandard2.0\ProjektProgramowaniew59051.pdb
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\bin\Debug\netstandard2.0\ProjektProgramowaniew59051.exe.config
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\obj\Debug\netstandard2.0\Test.csprojAssemblyReference.cache
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\obj\Debug\netstandard2.0\Test.csproj.CoreCompileInputs.cache
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\obj\Debug\netstandard2.0\Test.AssemblyInfoInputs.cache
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\obj\Debug\netstandard2.0\Test.AssemblyInfo.cs
+D:\Projekt programowanie\ProjektProgramowaniew59051\Test\obj\Debug\netstandard2.0\Test.csproj.CopyComplete

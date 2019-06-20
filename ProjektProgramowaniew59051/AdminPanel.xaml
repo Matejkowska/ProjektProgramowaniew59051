@@ -1,0 +1,39 @@
+﻿<Window x:Class="ProjektProgramowaniew59051.AdminPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjektProgramowaniew59051"
+        mc:Ignorable="d"
+        Title="AdminPanel" Height="600" Width="1100">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="330*"/>
+            <ColumnDefinition Width="119*"/>
+            <ColumnDefinition Width="743*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="Czas_na_wyko" HorizontalAlignment="Left" Height="24" Margin="101,41,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="176" Grid.Column="2"/>
+        <TextBox Name="Deadline" HorizontalAlignment="Left" Height="24" Margin="336,41,0,0" TextWrapping="Wrap" Text="YYYY-MM-DD" VerticalAlignment="Top" Width="96" Grid.Column="2"/>
+        <TextBox Name="Opis" HorizontalAlignment="Left" Height="24
+                 " Margin="69,109,0,0" TextWrapping="Wrap" Text="Maksymalnie 100 znakow" VerticalAlignment="Top" Width="954" Grid.ColumnSpan="3"/>
+        <Button Content="Zapisz" HorizontalAlignment="Left" Margin="414,165,0,0" VerticalAlignment="Top" Width="160" Grid.Column="2" Click="Button_Click_2"/>
+        <TextBox Name="Id" HorizontalAlignment="Left" Height="24" Margin="69,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55"/>
+        <DataGrid Name="Zadania" HorizontalAlignment="Left" Height="122" Margin="69,233,0,0" VerticalAlignment="Top" Width="954" Grid.ColumnSpan="3"/>
+        <ComboBox Name="dropdown_nazwiska" HorizontalAlignment="Left" Margin="172,404,0,0" VerticalAlignment="Top" Width="206" Height="24" Grid.ColumnSpan="2"/>
+        <ComboBox Name="dropdown_dzialy" HorizontalAlignment="Left" Margin="336,404,0,0" VerticalAlignment="Top" Width="214" Height="24" Grid.Column="2"/>
+        <Button Content="Pokaz zadania pracownika" HorizontalAlignment="Left" Margin="172,438,0,0" VerticalAlignment="Top" Width="206" Height="24" Grid.ColumnSpan="2" Click="Button_Click" />
+        <Button Content="Pobierz zadania dzialu" HorizontalAlignment="Left" Margin="344,438,0,0" VerticalAlignment="Top" Width="206" Height="24" Grid.Column="2" Click="Button_Click_1" />
+        <ComboBox Name="ComboPracownik" HorizontalAlignment="Left" Margin="153,41,0,0" VerticalAlignment="Top" Width="153" RenderTransformOrigin="0.238,0.363" Height="24"/>
+        <ComboBox Name="ComboDzial" HorizontalAlignment="Left" Margin="25,41,0,0" VerticalAlignment="Top" Width="160" Height="24" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="69,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nazwisko pracownika" HorizontalAlignment="Left" Margin="153,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.323,0.602" Width="153"/>
+        <Label Content="Nazwa działu" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.323,0.602" Width="153" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Czas na wykonanie zadania [h]" HorizontalAlignment="Left" Margin="101,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.323,0.602" Width="206" Grid.Column="2"/>
+        <Label Content="Deadline" HorizontalAlignment="Left" Margin="336,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.323,0.602" Width="206" Grid.Column="2"/>
+        <Label Content="Opis" HorizontalAlignment="Left" Margin="69,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.898,2.689"/>
+        <Label Content="Zadania" HorizontalAlignment="Left" Margin="69,202,0,0" VerticalAlignment="Top" RenderTransformOrigin="-5.252,0.79"/>
+        <Label Content="Wyświetl zadania pracownika" HorizontalAlignment="Left" Margin="197,373,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="24"/>
+        <Label Content="Wyświetl zadania dzialu" HorizontalAlignment="Left" Margin="363,373,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+
+    </Grid>
+</Window>

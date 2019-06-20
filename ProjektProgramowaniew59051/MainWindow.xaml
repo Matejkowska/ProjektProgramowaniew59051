@@ -1,0 +1,21 @@
+﻿<Window x:Class="ProjektProgramowaniew59051.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjektProgramowaniew59051"
+        mc:Ignorable="d"
+        Title="Logowanie" Height="300" Width="236.702">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="Nazwisko_login" HorizontalAlignment="Left" Height="24" Margin="39,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Left" Height="24" Margin="39,25,0,0" VerticalAlignment="Top" Width="113"/>
+        <PasswordBox Name="Haslo_login" HorizontalAlignment="Left" Margin="39,119,0,0" VerticalAlignment="Top" Width="150" Height="24"/>
+        <Label Content="Hasło" HorizontalAlignment="Left" Height="24" Margin="39,90,0,0" VerticalAlignment="Top" Width="113"/>
+        <Button Content="Logowanie" HorizontalAlignment="Left" Margin="77,160,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Panel administratora" HorizontalAlignment="Left" Margin="50,196,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click_1"/>
+        <TextBlock Height="23" HorizontalAlignment="Left" x:Name ="errormessage" VerticalAlignment="Top" Width="189" Margin="21,236,0,0"  OpacityMask="Crimson" Foreground="#FFE5572C"  />
+    </Grid>
+</Window>
